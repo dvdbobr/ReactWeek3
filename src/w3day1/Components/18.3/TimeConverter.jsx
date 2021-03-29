@@ -12,7 +12,7 @@ export default function TimeConverter() {
         if (e.target.name === "seconds") {
             newTime[0]["seconds"] = parseInt(e.target.value)
             newTime[0]["minutes"] = (parseInt(e.target.value) / 60)
-            newTime[0]["hours"] = (parseInt(e.target.value) / 360)
+            newTime[0]["hours"] = (parseInt(e.target.value) / 3600)
         }
         else if (e.target.name === "minutes") {
             newTime[0]["seconds"] = parseInt(e.target.value) * 60
@@ -20,7 +20,7 @@ export default function TimeConverter() {
             newTime[0]["hours"] = (parseInt(e.target.value) / 60)
         }
         else {
-            newTime[0]["seconds"] = parseInt(e.target.value) * 360
+            newTime[0]["seconds"] = parseInt(e.target.value) * 3600
             newTime[0]["minutes"] = parseInt(e.target.value) * 60
             newTime[0]["hours"] = parseInt(e.target.value)
         }
