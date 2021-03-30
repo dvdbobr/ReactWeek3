@@ -8,7 +8,7 @@ export default function Countries() {
     const [filteredCountries, setFilteredCountries] = useState([])
     useEffect(() => {
         const search = async () => {
-            const result = await axios.get('https://restcountries.eu/rest/v2/all',)
+            const result = await axios.get('https://restcountries.eu/rest/v2/all')
             console.log(result.data);
             setCountries(result.data)
         }
