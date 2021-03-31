@@ -1,0 +1,14 @@
+.grayStyle{
+    margin-left: 50px;
+    width: 600px;
+    height: 400px;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+.coloredStyle{
+    margin-left: 50px;
+    width: 600px;
+    height: 400px;
+    filter: grayscale(0%);
+    cursor: pointer;
+}

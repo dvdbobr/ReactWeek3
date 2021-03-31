@@ -8,12 +8,13 @@
 //import ChuckHooks from "./w3day2/Components/ex19.4/ChuckHooks";
 //import AxiosCancel from "./w3day3/Components/ex20.1/AxiosCancel";
 //import Editing from "./w3day3/Components/ex21.1/Editing";
-import Video from "./w3day3/Components/ex21.2/Video";
-
+//import Video from "./w3day3/Components/ex21.2/Video";
+import ImgColor from "./w3day3/Components/ex21.3/ImgColor";
+import './w3day3/Components/ex21.3/CSS/imgCss.css'
 function App() {
   return (
     <div>
-      <Video/>
+      <ImgColor/>
     </div>
   );
 }
