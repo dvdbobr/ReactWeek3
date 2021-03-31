@@ -5,12 +5,14 @@
 //import Fetch from "./w3day2/Components/Fetch";
 //import Countries from "./w3day2/Components/ex19.2/Countries";
 //import Articles from "./w3day2/Components/ex19.3/Articles";
-import ChuckHooks from "./w3day2/Components/ex19.4/ChuckHooks";
+//import ChuckHooks from "./w3day2/Components/ex19.4/ChuckHooks";
+//import AxiosCancel from "./w3day3/Components/ex20.1/AxiosCancel";
+import Editing from "./w3day3/Components/ex21.1/Editing";
 
 function App() {
   return (
     <div>
-      <ChuckHooks/>
+      <Editing/>
     </div>
   );
 }
